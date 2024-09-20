@@ -35,13 +35,13 @@
 
 > We designed CognifyEdu using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
 
-- Project Figma design [figma](https://www.figma.com/design/U2P8bXvDJkAEcWznBTxUUh/UI-UX-Assignments?node-id=257-428&t=CbqzlIepZUG9RqWT-1)
+- Project [Figma](https://www.figma.com/design/U2P8bXvDJkAEcWznBTxUUh/UI-UX-Assignments?node-id=257-428&t=CbqzlIepZUG9RqWT-1) design
 
-### Mockups
+<!-- ### Mockups
 
 | Home screen                               | Menu Screen                             | Order Screen                            |
 | ----------------------------------------- | --------------------------------------- | --------------------------------------- |
-| ![Landing](./readme/assets/1440x1024.png) | ![fsdaf](./readme/assets/1440x1024.png) | ![fsdaf](./readme/assets/1440x1024.png) |
+| ![Landing](./readme/assets/1440x1024.png) | ![fsdaf](./readme/assets/1440x1024.png) | ![fsdaf](./readme/assets/1440x1024.png) | -->
 
 <br><br>
 
@@ -50,7 +50,7 @@
 
 ### Architecting Data Excellence: Innovative Database Design Strategies:
 
-![ERDiagram](./readme/assets/CognifyEdu_ERDiagram.png)
+![ERDiagram](./readme/assets/db-schema.png)
 
 <br><br>
 
@@ -61,17 +61,17 @@
 
 | Landing Screen                            | Login Popup                             |
 | ----------------------------------------- | --------------------------------------- |
-| ![Landing](./readme/assets/1440x1024.png) | ![fsdaf](./readme/assets/1440x1024.png) |
+| ![Landing](./readme/assets/landing.gif) | ![fsdaf](./readme/assets/login.gif) |
 | Courses Screen                            | Course Screen                           |
-| ![Landing](./readme/assets/1440x1024.png) | ![fsdaf](./readme/assets/1440x1024.png) |
+| ![Landing](./readme/assets/courses.png) | ![fsdaf](./readme/assets/course.png) |
 | Analysis Screen                           | Insights Screen                         |
-| ![Landing](./readme/assets/1440x1024.png) | ![fsdaf](./readme/assets/1440x1024.png) |
+| ![Landing](./readme/assets/analysis.gif) | ![fsdaf](./readme/assets/insights.png) |
 
 ### Admin Screens
 
 | Users Screen                              | Courses Screen                          |
 | ----------------------------------------- | --------------------------------------- |
-| ![Landing](./readme/assets/1440x1024.png) | ![fsdaf](./readme/assets/1440x1024.png) |
+| ![Landing](./readme/assets/admin-users.png) | ![fsdaf](./readme/assets/admin-courses.png) |
 <br><br>
 
 <!-- Prompt Engineering -->
