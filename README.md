@@ -11,9 +11,21 @@
 
 ### User Stories
 
-- As a teacher, I want to view detailed student profiles, so I can provide targeted support and interventions.
+#### Teacher
+- As a teacher, I want to create and assign assignments, so I can track student progress and provide feedback.
 - As a student, I want to receive personalized learning paths, so I can focus on my strengths and areas for improvement.
+
+#### Student
+- As a student, I want to submit my assignments, so I can complete tasks and receive feedback on my performance.
+- As a student, I want to receive personalized learning paths, so I can focus on my strengths and areas for improvement.
+
+#### Parent
 - As a parent, I want to understand my child’s abilities and development, so I can support their learning at home effectively.
+- As a parent, I want to view my child’s cognitive and behavioral insights, so I can monitor their academic and personal development.
+
+#### Admin
+- As an admin, I want to view and manage all users, so I can oversee platform activities and ensure smooth operation.
+- As an admin, I want to view and manage courses, so I can ensure the platform’s educational content is up to date and properly organized.
 
 <br><br>
 
@@ -24,9 +36,9 @@
 
 - This project uses the [React.js](https://reactjs.org/) framework for building the user interface. React is a JavaScript library for creating dynamic, responsive web applications.
 - For the backend, the project uses the [Laravel](https://laravel.com/) PHP framework, which provides a robust structure for API management, authentication, and database interactions.
-- The platform stores data in a [MySQL] (https://www.mysql.com/) database, which is ideal for managing relational data such as student profiles, assignments, and grades.
+- The platform stores data in a [MySQL](https://www.mysql.com/) database, which is ideal for managing relational data such as student profiles, assignments, and grades.
 - To provide AI-driven cognitive and behavioral insights, the platform integrates with the [OpenAI API] (https://openai.com/) for advanced data processing.
-- The platform is deployed and hosted on [AWS] (https://aws.amazon.com/) for scalable and secure cloud infrastructure.
+- The platform is deployed and hosted on [AWS](https://aws.amazon.com/) for scalable and secure cloud infrastructure.
 
 <br><br>
 
@@ -99,6 +111,7 @@
 
 - This project employs comprehensive unit testing methodologies to ensure the accuracy and reliability of all components in CognifyEdu. By systematically testing individual parts of the platform, we maintain a strong foundation, quickly identifying and addressing issues to provide a stable learning experience.
 
+<img src="./readme/assets/unit-test.png"/>
 <br><br>
 
 <!-- How to run -->
