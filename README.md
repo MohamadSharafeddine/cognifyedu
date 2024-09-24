@@ -75,13 +75,13 @@
 
 ### User Screens
 
-| Landing Screen                           | Login Popup                            |
-| ---------------------------------------- | -------------------------------------- |
-| ![Landing](./readme/assets/landing.gif)  | ![fsdaf](./readme/assets/login.gif)    |
-| Courses Screen                           | Course Screen                          |
-| ![Landing](./readme/assets/courses.png)  | ![fsdaf](./readme/assets/course.png)   |
-| Analysis Screen                          | Add Insight                            |
-| ![Landing](./readme/assets/analysis.gif) | ![fsdaf](./readme/assets/add-insight.gif) |
+| Landing Screen                              | Login Popup                                 |
+| ------------------------------------------- | ------------------------------------------- |
+| ![Landing](./readme/assets/landing.gif)     | ![fsdaf](./readme/assets/login.gif)         |
+| Courses Screen                              | Course Screen                               |
+| ![Landing](./readme/assets/courses.gif)     | ![fsdaf](./readme/assets/course.gif)        |
+| Analysis Screen                             | Add Insight                                 |
+| ![Landing](./readme/assets/analysis.gif)    | ![fsdaf](./readme/assets/add-insight.gif)   |
 
 ### Admin Screens
 
