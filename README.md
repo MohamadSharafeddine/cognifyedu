@@ -13,11 +13,13 @@
 
 #### Teacher
 
-- As a teacher, I want to create and assign assignments, so I can track student progress and provide feedback.
-- As a student, I want to receive personalized learning paths, so I can focus on my strengths and areas for improvement.
+- As a teacher, I want to create and assign assignments to my students so that I can assess their understanding of the material.
+- As a teacher, I want to view and grade student submissions so that I can provide timely feedback on their work.
+- As a teacher, I want to view detailed student profiles, so I can provide targeted support and interventions.
 
 #### Student
 
+- As a student, I want to view my assigned courses so that I can keep track of my assignments.
 - As a student, I want to submit my assignments, so I can complete tasks and receive feedback on my performance.
 - As a student, I want to receive personalized learning paths, so I can focus on my strengths and areas for improvement.
 
@@ -25,11 +27,13 @@
 
 - As a parent, I want to understand my child’s abilities and development, so I can support their learning at home effectively.
 - As a parent, I want to view my child’s cognitive and behavioral insights, so I can monitor their academic and personal development.
+- As a parent, I want to ensure my child is engaged in their studies and thriving in their academic environment.
 
 #### Admin
 
 - As an admin, I want to view and manage all users, so I can oversee platform activities and ensure smooth operation.
 - As an admin, I want to view and manage courses, so I can ensure the platform’s educational content is up to date and properly organized.
+- As an admin, I want to ensure that parents can view their children's profiles and monitor their performance, so they can stay informed about their child's academic progress and provide necessary support.
 
 <br><br>
 
@@ -55,8 +59,8 @@
 
 ### Mockups
 
-| Courses screen                               | Analysis Screen                             | Edit Profile Screen                            |
-| ----------------------------------------- | --------------------------------------- | --------------------------------------- |
+| Courses screen                                 | Analysis Screen                                  | Edit Profile Screen                                     |
+| ---------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------- |
 | ![Courses](./readme/assets/mockup-courses.png) | ![Analysis](./readme/assets/mockup-analysis.png) | ![Edit Profile](./readme/assets/mockup-editprofile.png) |
 
 <br><br>
@@ -75,13 +79,13 @@
 
 ### User Screens
 
-| Landing Screen                              | Login Popup                                 |
-| ------------------------------------------- | ------------------------------------------- |
-| ![Landing](./readme/assets/landing.gif)     | ![fsdaf](./readme/assets/login.gif)         |
-| Courses Screen                              | Course Screen                               |
-| ![Landing](./readme/assets/courses.gif)     | ![fsdaf](./readme/assets/course.gif)        |
-| Analysis Screen                             | Add Insight                                 |
-| ![Landing](./readme/assets/analysis.gif)    | ![fsdaf](./readme/assets/add-insight.gif)   |
+| Landing Screen                           | Login Popup                               |
+| ---------------------------------------- | ----------------------------------------- |
+| ![Landing](./readme/assets/landing.gif)  | ![fsdaf](./readme/assets/login.gif)       |
+| Courses Screen                           | Course Screen                             |
+| ![Landing](./readme/assets/courses.gif)  | ![fsdaf](./readme/assets/course.gif)      |
+| Analysis Screen                          | Add Insight                               |
+| ![Landing](./readme/assets/analysis.gif) | ![fsdaf](./readme/assets/add-insight.gif) |
 
 ### Admin Screens
 
@@ -98,6 +102,8 @@
 
 - This project uses advanced prompt engineering techniques to optimize interactions with the OpenAI API. By carefully crafting the input prompts, we tailor the cognitive and behavioral assessments to deliver precise insights that enhance the academic development of students.
 
+<img src="./readme/assets/prompt.png"/>
+
 <br><br>
 
 <!-- AWS Deployment -->
@@ -105,7 +111,9 @@
 
 ### Efficient AI Deployment: Unleashing the Potential with AWS Integration:
 
-- This project leverages AWS deployment strategies to seamlessly integrate and scale the CognifyEdu platform. AWS ensures that our AI-driven educational insights are delivered efficiently and securely to support a wide range of users.
+- This project leverages AWS deployment strategies to create a robust and scalable backend for the CognifyEdu platform. By harnessing the power of AWS services, we ensure that our AI-driven educational insights are delivered efficiently to support a wide range of users.
+
+<img src="./readme/assets/api-call.png"/>
 
 <br><br>
 
@@ -117,6 +125,7 @@
 - This project employs comprehensive unit testing methodologies to ensure the accuracy and reliability of all components in CognifyEdu. By systematically testing individual parts of the platform, we maintain a strong foundation, quickly identifying and addressing issues to provide a stable learning experience.
 
 <img src="./readme/assets/unit-test.png"/>
+
 <br><br>
 
 <!-- How to run -->
@@ -144,11 +153,13 @@ Follow these steps to install and set up CognifyEdu locally:
 1. Get an API Key at [OpenAI](https://beta.openai.com/signup/)
 
 2. Clone the repo
+
    ```sh
    git clone https://github.com/MohamadSharafeddine/cognifyedu.git
    ```
 
 3. Navigate to the backend directory and install Composer packages
+
    ```sh
    cd backend
    composer install
@@ -158,13 +169,12 @@ Follow these steps to install and set up CognifyEdu locally:
    ```env
    OPENAI_API_KEY="ENTER YOUR OPENAI API KEY"
    ```
-   
 5. Run database migrations to set up the tables
    ```sh
    php artisan migrate
    ```
-   
 6. Navigate to the frontend directory and install NPM packages
+
    ```sh
    cd ../frontend
    npm install
