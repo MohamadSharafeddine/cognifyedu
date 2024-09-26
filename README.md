@@ -173,14 +173,19 @@ Follow these steps to install and set up CognifyEdu locally:
    ```sh
    php artisan migrate
    ```
-6. Navigate to the frontend directory and install NPM packages
+6. Start the Laravel development server
+   ```sh
+   php artisan serve
+   ```
+   
+7. Navigate to the frontend directory and install NPM packages
 
    ```sh
    cd ../frontend
    npm install
    ```
 
-7. Start the development server
+8. Start the frontend development server
    ```sh
    npm start
    ```
